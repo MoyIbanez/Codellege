@@ -1,0 +1,196 @@
+/*Elementos principales*/
+
+body {
+    background-color: rgb(250, 250, 250);
+}
+
+article {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+section {
+    padding: 10px;
+    margin-top: 20px;
+    border-width: 1px;
+    border-color: #333;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+
+/*Links*/
+
+a.red {
+    color: red;
+    text-decoration: none;
+}
+
+a.blue {
+    color: blue;
+    text-decoration: none;
+}
+
+a.green {
+    color: green;
+    text-decoration: none;
+}
+
+a.purple {
+    color: purple;
+    text-decoration: none;
+}
+
+
+/*Links - Botones*/
+
+a.redBtn {
+    color: #FFF;
+    text-decoration: none;
+    background-color: red;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+a.redBtn:visited {
+    color: #FFF;
+    text-decoration: none;
+    background-color: red;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+a.redBtn:hover {
+    color: #FFF;
+    text-decoration: none;
+    background-color: darkred;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+a.blueBtn {
+    color: #FFF;
+    text-decoration: none;
+    background-color: blue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+a.blueBtn:hover {
+    color: #FFF;
+    text-decoration: none;
+    background-color: rgb(0, 0, 95);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+a.blueBtn:visited {
+    color: #FFF;
+    text-decoration: none;
+    background-color: blue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+
+/*Elementos individuales*/
+
+#title {
+    color: darkcyan;
+}
+
+#donateMe {
+    background-color: black;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+#donateMe:hover {
+    background-color: darkred;
+    padding: 30px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+
+/*Texto de colores*/
+
+.rojo {
+    color: darkred;
+}
+
+.morado {
+    color: blueviolet;
+}
+
+.verde {
+    color: green;
+}
+
+.azul {
+    color: darkblue;
+}
+
+
+/*Texto de contrastante*/
+
+.darkText {
+    color: #333;
+}
+
+.lightText {
+    color: rgb(250, 250, 250);
+}
+
+
+/*Texto con transparencia*/
+
+.semiDarkTransparentText {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.mediumDarkTransparentText {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.superDarkTransparentText {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+
+/*Contenedores*/
+
+.darkBackground {
+    background-color: black;
+}
+
+.lightBackground {
+    background-color: darkgray;
+}
+
+.cyanBackground {
+    background-color: darkcyan;
+}

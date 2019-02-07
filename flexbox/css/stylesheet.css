@@ -1,0 +1,25 @@
+ * {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+ .flex-container {
+     display: flex;
+     width: 70%;
+     height: 500px;
+     flex-direction: row;
+     flex-wrap: wrap;
+     background: #333;
+     justify-content: space-between;
+     align-items: center;
+     align-content: space-around;
+ }
+ 
+ .flex-container div {
+     background-color: darkcyan;
+     margin: 20px;
+     padding: 20px;
+     font-size: 20px;
+     width: 50px;
+     text-align: center;
+     color: #CCC;
+ }

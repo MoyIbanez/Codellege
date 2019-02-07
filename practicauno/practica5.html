@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tablas 2</title>
+</head>
+
+<style>
+    table {
+        /*border-style: double;
+        border-width: 10px;
+        border-color: darkcyan;*/
+        border: 10px dotted darkcyan;
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    tr,
+    td,
+    th {
+        border: 1px dashed purple;
+    }
+    
+    th {
+        text-align: center;
+    }
+</style>
+
+<body>
+
+    <table>
+        <tr>
+            <th width="75%" rowspan="2">Tareas y clases</th>
+            <th width="25%" colspan="3">Iluminancia media</th>
+        </tr>
+        <tr>
+            <th>Mínimo</th>
+            <th>Recomendado</th>
+            <th>Óptimo</th>
+        </tr>
+        <tr>
+            <td colspan="4"><strong>Zonas generales de edificios</strong></td>
+        </tr>
+        <tr>
+            <td>Zonas de circulación, pasillos</td>
+            <td>50</td>
+            <td>100</td>
+            <td>150</td>
+        </tr>
+        <tr>
+            <td>Escaleras, roperos, lavavos y almacenes</td>
+            <td>100</td>
+            <td>150</td>
+            <td>200</td>
+        </tr>
+        <tr>
+            <td colspan="4"><strong>Centros docentes</strong></td>
+        </tr>
+        <tr>
+            <td>Aulas, Laboratorios</td>
+            <td>300</td>
+            <td>400</td>
+            <td>500</td>
+        </tr>
+        <tr>
+            <td>Bibliotecas, salas de estudio</td>
+            <td>300</td>
+            <td>500</td>
+            <td>750</td>
+        </tr>
+        <tr>
+            <td colspan="4"><strong>Oficinas</strong></td>
+        </tr>
+        <tr>
+            <td>Oficinas normales, mecanografiado, salas de proceso de datos, salas de conferencias</td>
+            <td>450</td>
+            <td>500</td>
+            <td>750</td>
+        </tr>
+        <tr>
+            <td>Grandes oficinas, salas de lineación, CAD/CAM/CAE</td>
+            <td>500</td>
+            <td>750</td>
+            <td>1000</td>
+        </tr>
+        <tr>
+            <td colspan="4"><strong>Comercios</strong></td>
+        </tr>
+        <tr>
+            <td>Comercio tradicional</td>
+            <td>300</td>
+            <td>500</td>
+            <td>750</td>
+        </tr>
+        <tr>
+            <td>Grandes superficies, supermercados, salones de muestras</td>
+            <td>500</td>
+            <td>750</td>
+            <td>1000</td>
+        </tr>
+        <tr>
+            <td colspan="4"><strong>Industria (en general)</strong></td>
+        </tr>
+        <tr>
+            <td>Trabajos con requerimientos visuales limitados</td>
+            <td>200</td>
+            <td>300</td>
+            <td>500</td>
+        </tr>
+        <tr>
+            <td>Trabajos con requerimientos visuales normales</td>
+            <td>500</td>
+            <td>750</td>
+            <td>1000</td>
+        </tr>
+        <tr>
+            <td>Trabajos con requerimientos visuales especiales</td>
+            <td>1000</td>
+            <td>1500</td>
+            <td>2000</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

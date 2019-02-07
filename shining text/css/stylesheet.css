@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+* {
+    font-family: 'Lobster', cursive;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+p {
+    position: relative;
+    color: white;
+    text-transform: capitalize;
+    font-size: 2em;
+    /*overflow: hidden;*/
+    border-radius: 2px;
+    /*Linear Gradient(deg, paleta de colores;(red, pink, blue))*/
+    /*background: linear-gradient(90deg, black, white, black);*/
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-image: url(../img/mario.png);
+    /*Animation (Nombre de animación, duración de animación, valores de reproducción, veces que se repite)*/
+    animation: animacion 3s linear infinite;
+}
+
+@keyframes animacion {
+    0% {
+        background-position: -500%;
+    }
+    100% {
+        background-position: 500%;
+    }
+}
