@@ -21,10 +21,16 @@ p {
     /*overflow: hidden;*/
     border-radius: 2px;
     /*Linear Gradient(deg, paleta de colores;(red, pink, blue))*/
+<<<<<<< Updated upstream
     /*background: linear-gradient(90deg, black, white, black);*/
     background-repeat: no-repeat;
     background-size: 60%;
     background-image: url(../img/mario.png);
+=======
+    background: linear-gradient(90deg, black, white, black);
+    background-repeat: no-repeat;
+    background-size: 80%;
+>>>>>>> Stashed changes
     /*Animation (Nombre de animación, duración de animación, valores de reproducción, veces que se repite)*/
     animation: animacion 3s linear infinite;
 }
