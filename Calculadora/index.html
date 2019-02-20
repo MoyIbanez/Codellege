@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <title>Calculadora By Moy</title>
+</head>
+
+<body>
+
+    <body>
+
+        <div class="container m-5">
+
+            <div class="jumbotron">
+                <h1 class="display-4">Calculadora Aritmética</h1>
+
+                <div class="input-group input-group-lg">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-lg">#1</span>
+                    </div>
+                    <input id="input1" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                </div>
+
+                <div class="input-group input-group-lg">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-lg">#2</span>
+                    </div>
+                    <input id="input2" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                </div>
+
+                <div class="row">
+                    <a id="sumar" href="#" class="col m-3 btn btn-outline-primary btn-block">
+                        <h2>+</h2>
+                    </a>
+                    <a id="restar" href="#" class="col m-3 btn btn-outline-primary btn-block">
+                        <h2>-</h2>
+                    </a>
+                    <a id="multiplicar" href="#" class="col m-3 btn btn-outline-primary btn-block">
+                        <h2>x</h2>
+                    </a>
+                    <a id="dividir" href="#" class="col m-3 btn btn-outline-primary btn-block">
+                        <h2>/</h2>
+                    </a>
+                </div>
+
+                <div id="resultado" class="alert alert-primary" role="alert">
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <script>
+            let numero1 = document.getElementById('input1').value;
+            let numero2 = document.getElementById('input2').value;
+
+            let sum = document.getElementById('sumar');
+            sum.addEventListener('click', suma);
+
+            let rest = document.getElementById('restar');
+            rest.addEventListener('click', resta);
+
+            let mult = document.getElementById('multiplicar');
+            mult.addEventListener('click', multiplicacion);
+
+            let divi = document.getElementById('dividir');
+            divi.addEventListener('click', division);
+
+            numero1 = Number(numero1);
+            numero2 = Number(numero2);
+
+            let result = 0;
+
+            function suma(numero1, numero2) {
+
+                result = numero1 + numero2;
+
+                let impresion = document.getElementById('resultado');
+                impresion.innerText = result;
+
+            }
+
+            function resta(numero1, numero2) {
+
+                result = numero1 - numero2;
+
+                let impresion = document.getElementById('resultado');
+                impresion.innerText = result;
+
+            }
+
+            function multiplicacion(numero1, numero2) {
+                result = numero1 * numero2;
+
+                let impresion = document.getElementById('resultado');
+                impresion.innerText = result;
+            }
+
+            function division(numero1, numero2) {
+                result = numero1 / numero2;
+
+                let impresion = document.getElementById('resultado');
+                impresion.innerText = result;
+            }
+        </script>
+    </body>
+
+</html>
